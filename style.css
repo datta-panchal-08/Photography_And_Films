@@ -846,10 +846,13 @@ html,body{
     }
     #scroll{
         width: 100%;
-        height: 20vh;
+        height: 15vh;
+        /* background-color: red; */
     }
     #scroll img{
-        margin-right:0.4vw;
+        margin-right:0.1vw;
+        width: 12vw;
+        height: 12vw;
     }
 
     #alpha{
@@ -862,9 +865,13 @@ html,body{
         padding: 0.7vw 0.9vw;
         font-size: 2vw;
     }
+    #page2{
+        /* background-color: red; */
+        height: 50%;
+    }
     #page2-part1 >h1{
         position: absolute;
-        bottom: -3%;
+        bottom: -4.6%;
     }
     #page2-part2{
         height: 100%;
@@ -873,32 +880,75 @@ html,body{
     #page2-part2-text >p{
         width: 50%;
         /* height: 50%; */
-        font-size: 11px;
+        font-size: 1.4vw;
+        height: 100%;
+        /* background-color: green; */
     }
     #page2-part2-text >h3{
        width: 40%;
-       font-size: 15px;
+       font-size: 10px;
+    }
+    #page3{
+        height: 50%;
+        /* background-color: green; */
+    }
+    #page3-part1 img:nth-child(2){
+        width: 70px;
+        height: 70px;
+        top: 22%;
+        left: 50%;
+    }
+    #page4{
+        height: 50%;
+    }
+    #page4>img{
+        object-position: -20% 50%;
+    }
+    #page5{
+        height: 50%;
+    }
+    .elem {
+        height: 10vh;
+      }
+    .elem img {
+        height:50px;
+        width: 50px;
+      }
+      .elem h4 {
+        font-size: 1.3vw;
+      }
+    #page6{
+        height: 50%;
     }
     #page6-part2-text>h1{
-        font-size: 3vw;
+        font-size: 1.6vw;
     }
     #page6-part2-text>h5{
-        font-size: 1.7vw;
+        font-size: 1.4vw;
     }
     #page6-part2-text>p{
-        margin-top: 20px;
-        font-size: 1.7vw;
+        margin-top: 10px;
+        font-size: 1.3vw;
+    }
+    #page7{
+        height: 50%;
+    }
+    #page8{
+        height: 50%;
     }
     #page8-part2-text h3{
         width: 40%;
         /* background-color: green; */
-        font-size: 2vw;
+        font-size: 1.6vw;
 
     }
     #page8-part2-text p{
        width: 50%;
-       font-size: 1.8vw;
+       font-size: 1.4vw;
        /* background-color: red; */
+    }
+    #page9{
+        height: 50%;
     }
     #page9-center{
         width: 40%;
@@ -909,9 +959,10 @@ html,body{
         width: 25px;
         height: 25px;
         font-size: 2vw;   
+        /* background-color: red; */
     }
     .center-up>p{
-        font-size: 1.7vw;
+        font-size: 1.6vw;
         font-weight: bold;
     }
     .right-up{
@@ -924,7 +975,10 @@ html,body{
     }
     .right-up>p{
         width: 70%;
-        font-size: 1.7vw;
+        font-size: 1.3vw;
+    }
+    #footer{
+        height: 30%;
     }
     #footer-right>h1{
         font-size: 20px;
